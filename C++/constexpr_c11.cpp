@@ -24,3 +24,4 @@ int main() {
    }
    return 1;
 }
+// constexpr values are those that the compiler can evaluate at compile-time:

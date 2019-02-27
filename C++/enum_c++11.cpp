@@ -3,19 +3,14 @@ using namespace std;
 
 class base {
     public:
-        void display(char*) {
-            cout << "char* display" << endl;
-        }
-        void display(int) {
-            cout << "int display" << endl;
-        }
+        enum class color { red, green};
+        enum class signal { red, green};
+
+        // Below enums will give conflicts among same enum names e.g. red in c++98.
+        // enum color { red, green};
+        // enum signal { red, green};
 };
 int main() {
-    base obj;
-    obj.display(nullptr);
-    obj.display(0);
-     // nullptr is 0 but it is for pointer type in c++11. so output of program is
-     // char* display
-     // int display
+    
     return 1;
 }
