@@ -1,4 +1,7 @@
 // https://refactoring.guru/design-patterns/visitor
+
+// Here visitor will have visit method overloaded for each type of node.
+
 #include <iostream>
 using namespace std;
 

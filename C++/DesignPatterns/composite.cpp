@@ -1,6 +1,8 @@
 // https://www.geeksforgeeks.org/composite-design-pattern/
 // https://refactoring.guru/design-patterns/composite
 
+// execute some action accross tree irrespective node being accessed is subtree or leaf.
+
 #include <iostream>
 #include <vector>
 using namespace std;

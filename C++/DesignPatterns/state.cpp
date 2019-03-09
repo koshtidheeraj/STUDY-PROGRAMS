@@ -1,4 +1,7 @@
 // https://refactoring.guru/design-patterns/state
+
+// It is finite state machine.
+
 #include <iostream>
 #include <string>
 using namespace std;

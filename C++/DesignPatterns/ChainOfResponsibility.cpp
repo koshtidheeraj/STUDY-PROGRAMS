@@ -1,4 +1,7 @@
 // https://refactoring.guru/design-patterns/chain-of-responsibility
+
+// responsibility is passed from one calss to other.
+
 #include <iostream>
 using namespace std;
 

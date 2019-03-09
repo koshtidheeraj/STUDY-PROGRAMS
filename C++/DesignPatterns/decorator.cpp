@@ -1,5 +1,8 @@
 // https://www.geeksforgeeks.org/the-decorator-pattern-set-2-introduction-and-design/
 // https://refactoring.guru/design-patterns/decorator
+
+// It is similar to wrapper functionalities.
+
 #include <iostream>
 using namespace std;
 

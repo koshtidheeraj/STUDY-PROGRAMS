@@ -1,4 +1,8 @@
 // https://refactoring.guru/design-patterns/iterator
+
+// client will get iterator to browse a structure without knowing
+// implementation of internal way of storage.
+
 #include <iostream>
 using namespace std;
 

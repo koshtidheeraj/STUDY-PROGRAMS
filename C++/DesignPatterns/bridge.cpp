@@ -1,6 +1,11 @@
 // https://refactoring.guru/design-patterns/bridge
 // https://www.geeksforgeeks.org/bridge-design-pattern/
 
+// Here instead of creating multiple classes, we created class for each type of vehicles and
+// inside created instances of workshops for those vehicles. So one workshop can be part of
+// many vehicles means no need to create seperate class e.g. carrepairworkshop, carcleanworkshop,
+// bikerepairworkshop, bikecleanworkshop.
+
 #include <iostream>
 using namespace std;
 

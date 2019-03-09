@@ -1,4 +1,6 @@
 // https://refactoring.guru/design-patterns/adapter
+// Here toy bird is adapted to behave as real bird.
+
 #include <iostream>
 #include <string>
 using namespace std;

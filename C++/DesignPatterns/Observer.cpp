@@ -1,4 +1,7 @@
 // https://refactoring.guru/design-patterns/observer
+
+// publsher-subscriber pattern.
+
 #include <iostream>
 #include <string>
 #include <vector>

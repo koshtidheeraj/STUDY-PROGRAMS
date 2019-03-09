@@ -1,4 +1,8 @@
 // https://refactoring.guru/design-patterns/mediator
+
+// Here may nodes are scattered and they do not communicate with each other directly.
+// They communicate via mediator.
+
 #include <iostream>
 #include <string>
 using namespace std;
