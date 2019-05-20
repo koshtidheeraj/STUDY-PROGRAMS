@@ -1,0 +1,4 @@
+/home/synerzip/Documents/STUDY-PROGRAMS/qt_visualizer/build/CMakeFiles/edit_cache.dir
+/home/synerzip/Documents/STUDY-PROGRAMS/qt_visualizer/build/CMakeFiles/pcl_visualizer.dir
+/home/synerzip/Documents/STUDY-PROGRAMS/qt_visualizer/build/CMakeFiles/rebuild_cache.dir
+/home/synerzip/Documents/STUDY-PROGRAMS/qt_visualizer/build/CMakeFiles/pcl_visualizer_automoc.dir
