@@ -15,7 +15,7 @@ void worker_thread()
     // Wait until main() sends data
     std::unique_lock<std::mutex> lk(m);
     cv.wait(lk, []{return ready;});
- 
+
     // after the wait, we own the lock.
     std::cout << "Worker thread is processing data\n";
     data += " after processing";

@@ -27,7 +27,10 @@ class rvalue {
 int main() {
     vector<rvalue> v1 ;
     rvalue r1;
-    v1.push_back(r1);
+    v1.push_back(std::move(r1));
+    cout << r1.count << endl;
+    rvalue r2 = v1.front();
+    cout << r2.count;
     return 1;
 }
 
